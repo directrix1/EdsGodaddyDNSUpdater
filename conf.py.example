@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+# Create these credentials on https://developer.godaddy.com/
+# Production keys are the only ones that will work / are needed, but feel free
+# to put in a test one too if you feel fancy.
+godaddy={
+        'test': {
+            'key': 'yourtestkey',
+            'secret': 'yourtestsecret',
+            'server': 'api.ote-godaddy.com'
+            },
+        'prod': {
+            'key': 'yourprodkey',
+            'secret': 'yourprodsecret',
+            'server': 'api.godaddy.com'
+            }
+        }
+godaddy=godaddy['prod']
+
+# This example would update myip.yourhost.com, make sure you create
+# myip as an A record in the DNS management first. This service only updates.
+domain='yourhost.com'
+host='myip'
