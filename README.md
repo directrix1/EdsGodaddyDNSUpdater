@@ -13,7 +13,9 @@ the simple directions. You will need to go to https://developer.godaddy.com to
 make an API production key/secret that you then fill in to the conf.py file.
 
 You'll probably want to symlink update_godaddy_dns.py in your /etc/cron.hourly/
-folder to have this check and update hourly.
+folder to have this check and update hourly. *NOTE: Symlinks in cron.hourly
+won't run if they have a '.' in them, so make sure the link doesn't have '.py'
+on the end.*
 
 Enjoy!
 
