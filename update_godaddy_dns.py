@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+# Ed's Godaddy DNS Updater
+#
+# Copyright ©2016 Edward Flick under GPLv2 license
+
 import http.client
 import json
 import conf

@@ -20,5 +20,5 @@ Enjoy!
 License
 -------
 
-This software was written by Edward Flick (directrix1 -=at=- gmail -=dot=- com),
-and is released under the GPLv2 license.
+This software was written by Edward Flick (directrix1 -=at=- gmail -=dot=- com)
+in 2016, and is released under the GPLv2 license.
